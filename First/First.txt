@@ -1,0 +1,23 @@
+java script is high level scripting language
+
+use for user interaction
+
+js is single threaded language
+
+single sequential flow of control
+
+java script is synchronous language with asynchronous capabilities
+
+A thread has a call stack & memory
+
+
+THE CALL stack
+
+stack of function to be executed
+
+manages execution contexts
+
+stacks are LIFO last in first out
+
+
+async function
