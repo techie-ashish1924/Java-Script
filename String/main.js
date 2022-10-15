@@ -29,4 +29,10 @@ let final_string = first_list.join(" ");
 console.log(final_string);
 
 
+let str2 = "background-colour-red"
+let str_list = str2.split("-");
+console.log(str_list);
+
+
+
 
