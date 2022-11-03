@@ -1,0 +1,18 @@
+
+to run parallel file ---- used loop
+
+
+
+step 
+
+
+
+npm i fs
+
+
+setTimeout function 
+
+syntax - > setTimeout(first parameter, second parameter)
+
+first parameter -> call back function 
+second parameter -> taking time or rest time
