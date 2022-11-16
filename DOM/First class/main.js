@@ -33,22 +33,23 @@ console.log(header);
 
 let items = document.getElementsByClassName('list-group-item');
 
-// val.style.backgroundColor = 'yellow';
+/* val.style.backgroundColor = 'yellow';
 
-// console.log(items);
+ console.log(items);
 
-// for(let i=0; i< items.length ;i++)
-// {
-//     items[i].style.backgroundColor = 'lightgrey';
+ for(let i=0; i< items.length ;i++)
+ {
+     items[i].style.backgroundColor = 'lightgrey';
 
-//     Object.assign(items[i].style,{color:'orange',fontWeight:'bold'})
+     Object.assign(items[i].style,{color:'orange',fontWeight:'bold'})
 
-// }
+ }
+ */
 
 // GET ELEMENT BY TAG NAME
 
 
-let items1 = document.getElementsByTagName("li");
+/* let items1 = document.getElementsByTagName("li");
 
 console.log(items1);
 
@@ -60,7 +61,35 @@ for(let i=0; i< items1.length ;i++)
 
 }
 
+*/
+
 
 
 // GET ELEMENT BY QUERRY SELECTOR
 
+
+
+/* var heading = document.querySelector('.title');
+
+ heading.style.backgroundColor = 'green';
+
+
+ GET ELEMENT BY QUERRY SELECTOR ALL
+
+
+var heading = document.querySelectorAll('.title');
+
+console.log(heading);
+
+for(let i=0;i<heading.length;i++)
+{
+    heading[i].style.backgroundColor = 'brown';
+
+}
+
+*/
+
+
+let data = document.querySelector('.title');
+
+data.parentNode.style.backgroundColor = 'yellow';

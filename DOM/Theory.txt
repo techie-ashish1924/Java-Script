@@ -1,2 +1,14 @@
 DOM - > DOCUMENT OBJECT MODEL
 
+
+
+HTML COLLECTIONS
+
+1 - element nodes
+2 - array - like indexing
+3 - array methods like .length
+
+
+NODE LIST
+
+1 - element nodes, text nodes
