@@ -1,7 +1,11 @@
 :root{
-    background-color: lightgray;
-}
 
+    --background-bg-color:rgb(186,164,167);
+    /* background-color: lightgray; */
+
+    /* background-color: var(--radio-color);
+ */
+}
 body{
     background-color: var(--radio-color);
 }
@@ -9,6 +13,7 @@ body{
 .form-control{
     margin: 50px;
     border: 0;
+    background-color: white;
 }
 
 
@@ -19,7 +24,7 @@ body{
     padding: 10px;
     width: fit-content;
     margin-inline: auto;
-    border: 0;
+    /* border: 0; */
     /* background-color: white; */
 }
 
@@ -42,35 +47,34 @@ input[type = "radio"]:checked{
 
 :root:has(#babyPink:checked)
 {
-    background-color: var(--radio-color);
+    --radio-color : red;
+
 
 }
 
 :root:has(#blue:checked)
 {
-    background-color: var(--radio-color);
+    --radio-color : rgb(19,64,179);
 
 }
 
 :root:has(#orange:checked)
 {
-    background-color: var(--radio-color);
+    --radio-color : rgb(227,110,19);
 
 }
 
 :root:has(#light:checked)
 {
-    background-color: var(--radio-color);
-
+    --radio-color : rgb(205,183,187);
 }
 
 :root:has(#dark:checked)
 {
-    background-color: var(--radio-color);
-
+    --radio-color : rgb(32,42,68);
 }
 
-
+/*
 #babyPink{
     --radio-color : red;
 
@@ -100,5 +104,7 @@ input[type = "radio"]:checked{
     --radio-color : rgb(205,183,187);
 
 }
+
+*/
 
 
