@@ -1,0 +1,23 @@
+AJAX  - > it is a web technique
+
+Asynchronous Java script and XML.
+
+                        ___
+                        | |
+                Request | |
+client  ----------------|-|------------------------>   server
+        <---------------|-|------------------------
+                        |_| 
+                HTML + CSS + JAVASCRIPT
+
+
+    
+    DATA TYPES 
+
+    BASONN
+
+boolean , Arrays , String ,Objects , Number ,Null
+
+
+API 's - > set of rule is called api.
+
